@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #35424a;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+}
+
+hr.subtle-divider {
+    border: 0;
+    height: 1px;
+    background-color: #DAA520; /* Mustard yellow / Ochre - Grabowski's coat */
+    margin: 40px 20%; /* Give it some horizontal margin to not be full width */
+}
+
+/* Basic responsive design for smaller screens */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+    section {
+        margin: 10px;
+    }
+}
