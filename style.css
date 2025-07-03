@@ -3,13 +3,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #FFFFFF; /* Hungarian Flag White */
     color: #333;
 }
 
 header {
-    background: #35424a;
-    color: #ffffff;
+    background: #FF0000; /* Hungarian Flag Red */
+    color: #FFFFFF; /* White text on Red background */
     padding: 1rem 0;
     text-align: center;
 }
@@ -17,18 +17,19 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5rem;
+    color: #FFFFFF; /* Ensure H1 is white */
 }
 
 section {
     padding: 20px;
     margin: 20px;
-    background: #ffffff;
+    background: #FFFFFF; /* Hungarian Flag White */
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Keep shadow for depth if body is also white */
 }
 
 h2 {
-    color: #35424a;
+    color: #008000; /* Hungarian Flag Green */
 }
 
 footer {
