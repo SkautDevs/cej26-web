@@ -3,7 +3,7 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: #FFFFFF; /* Hungarian Flag White */
+    background-color: #ffffff; /* Hungarian Flag White */
     color: #333;
 }
 
@@ -15,8 +15,8 @@ body {
 }
 
 header {
-    background: #FF0000; /* Hungarian Flag Red */
-    color: #FFFFFF; /* White text on Red background */
+    background: #ff0000; /* Hungarian Flag Red */
+    color: #ffffff; /* White text on Red background */
     padding: 0.5rem 1rem; /* Adjusted padding */
 }
 
@@ -37,7 +37,7 @@ header {
 header h1 {
     margin: 0; /* Remove default h1 margin */
     font-size: 2rem; /* Slightly reduced font size to accommodate logo */
-    color: #FFFFFF; /* Ensure H1 is white */
+    color: #ffffff; /* Ensure H1 is white */
     text-align: left; /* Align text to the left */
     flex-grow: 1; /* Allow title to take remaining space if needed */
 }
@@ -48,7 +48,8 @@ header h1 {
     overflow: hidden; /* Ensures the image doesn't spill out if it's larger */
 }
 
-.event-photo { /* Now refers to the hero image */
+.event-photo {
+    /* Now refers to the hero image */
     width: 100%;
     height: 100%;
     object-fit: cover; /* Scales the image to maintain aspect ratio while filling the element's entire content box */
@@ -58,7 +59,7 @@ header h1 {
 section {
     padding: 20px;
     margin: 20px 0; /* Adjusted to 0 horizontal margin as site-container handles padding */
-    background: #FFFFFF; /* Hungarian Flag White */
+    background: #ffffff; /* Hungarian Flag White */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -70,8 +71,30 @@ h2 {
 hr.subtle-divider {
     border: 0;
     height: 1px;
-    background-color: #DAA520; /* Mustard yellow / Ochre - Grabowski's coat */
+    background-color: #daa520; /* Mustard yellow / Ochre - Grabowski's coat */
     margin: 40px 20%;
+}
+
+/* Link styling */
+a {
+    color: #008000; /* Hungarian Flag Green */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #ff0000; /* Hungarian Flag Red */
+    text-decoration: underline;
+}
+
+a:visited {
+    color: #006600; /* Slightly darker green for visited links */
+}
+
+.ord {
+    font-size: 0.6em;
+    line-height: 0;
+    vertical-align: super;
 }
 
 footer {
